@@ -1,0 +1,51 @@
+los codigos mostrados estan enfocados en la busqueda 
+grafos por los metodos anteriores
+
+    Aprendizaje por Refuerzo Pasivo:
+
+    El aprendizaje por refuerzo pasivo es un enfoque en el aprendizaje 
+    automático donde un agente aprende de manera pasiva a través de la observación de un entorno.
+    En lugar de tomar decisiones activas, el agente se centra en comprender el comportamiento del 
+    entorno y cómo este se relaciona con las recompensas. El agente ajusta sus políticas y estrategias 
+    en función de la retroalimentación que recibe del entorno, con el objetivo de maximizar las 
+    recompensas a largo plazo. Este enfoque es útil para entender y modelar sistemas complejos 
+    donde la toma de decisiones activa no es necesaria o práctica.
+
+Aprendizaje por Refuerzo Activo:
+
+    El aprendizaje por refuerzo activo se refiere a un enfoque en el que un agente toma decisiones
+    activas para interactuar con su entorno con el propósito de recopilar información valiosa. 
+    A diferencia del aprendizaje pasivo, donde el agente solo observa, en el aprendizaje activo, 
+    el agente busca proactivamente realizar acciones que maximicen su conocimiento y comprensión 
+    del entorno. Este enfoque es común en aplicaciones como la exploración de entornos desconocidos 
+    o la adquisición de datos de alta calidad para el aprendizaje automático.
+
+Q-Learning:
+
+    Q-Learning es un algoritmo de aprendizaje por refuerzo que se utiliza para aprender una 
+    política óptima en un entorno. El objetivo es encontrar la mejor manera de tomar decisiones
+    en un proceso de toma de decisiones secuenciales. Q-Learning utiliza una tabla Q para almacenar 
+    estimaciones de valor que indican cuán buenas son las acciones en un estado dado. 
+    El algoritmo ajusta estas estimaciones de valor a medida que el agente interactúa con el entorno, 
+    utilizando una regla de actualización que tiene en cuenta las recompensas y el descuento futuro.
+
+Exploración vs. Explotación:
+
+    La exploración vs. explotación es un dilema en el aprendizaje por refuerzo que se refiere 
+    a la elección entre explorar nuevas opciones o explotar opciones conocidas para maximizar 
+    las recompensas. La exploración implica probar nuevas acciones para descubrir información desconocida, 
+    mientras que la explotación implica aprovechar lo que se conoce para maximizar las recompensas actuales. 
+    En muchos algoritmos de aprendizaje por refuerzo, es crucial equilibrar la exploración y la explotación 
+    para encontrar una política óptima sin quedarse atrapado en un comportamiento subóptimo.
+
+Búsqueda de la Política:
+
+    La búsqueda de la política se refiere a la estrategia utilizada por un agente para tomar decisiones en un entorno.
+    La política puede ser una estrategia determinista o una distribución de probabilidad que especifica las acciones a 
+    tomar en cada estado. En la búsqueda de la política, el objetivo es encontrar la política óptima que maximice las recompensas 
+    a lo largo del tiempo. Esto puede lograrse mediante métodos de aprendizaje por refuerzo, optimización, o incluso estrategias 
+    basadas en conocimiento experto.
+
+Cada uno de estos conceptos desempeña un papel importante en el campo del aprendizaje por refuerzo y 
+tiene aplicaciones en una variedad de dominios, desde la toma de decisiones en entornos controlados por 
+máquinas hasta la toma de decisiones en el mundo real, como la robótica y la toma de decisiones comerciales.
