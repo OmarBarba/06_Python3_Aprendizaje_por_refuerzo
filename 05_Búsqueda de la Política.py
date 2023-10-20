@@ -1,3 +1,6 @@
+#busqueda en grafos 
+
+
 import random
 
 # Definir el grafo como un diccionario de adyacencia
